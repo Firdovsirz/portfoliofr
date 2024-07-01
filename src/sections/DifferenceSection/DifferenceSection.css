@@ -1,0 +1,60 @@
+.difference-section{
+    padding-inline: 400px;
+}
+.difference-section>.difference-container{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(77, 77, 77);
+    margin-top: 50px;
+    width: 100%x;
+    padding: 50px;
+    border-radius: 20px;
+    background: linear-gradient(-120deg, #121212 60%, black);
+}
+.difference-section>.difference-container>.difference-profile>img{
+    width: 270px;
+    height: 291px;
+    margin-right: 60px;
+}
+
+.difference-section>.difference-container>.difference-txt{
+    width: 600px;
+}
+
+.difference-section>.difference-container>.difference-txt>h2{
+    color: white;
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.difference-section>.difference-container>.difference-txt>h2>em{
+    font-weight: 200;
+}
+
+.difference-section>.difference-container>.difference-txt>p{
+    font-size: 20px;
+    color: #ABABAB;
+    margin-bottom: 20px;
+}
+.difference-section>.difference-container>.difference-txt>button{
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    background: transparent;
+    border: 1px solid rgb(77, 77, 77);
+    color: white;
+    font-size: 17px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 400ms;
+}
+.difference-section>.difference-container>.difference-txt>button>.arrow{
+    margin-left: 10px;
+    transition: all 400ms;
+}
+.difference-section>.difference-container>.difference-txt>button:hover{
+    box-shadow: 5px 10px rgb(77, 77, 77);
+}
+.difference-section>.difference-container>.difference-txt>button:hover .arrow{
+    transform: translateX(10px);
+}
