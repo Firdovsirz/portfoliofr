@@ -4,6 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 import JobImage from "/src/assets/intro-info-head.avif"
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import IntroMainImage from "/src/assets/intro-main-img.avif"
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 export default function IntroSection() {
     return (
@@ -23,6 +24,9 @@ export default function IntroSection() {
                         </div>
                         <div className='intro-git'>
                             <GitHubIcon style={{ color: "#fff", cursor: "pointer" }} />
+                        </div>
+                        <div className='intro-wp'>
+                            <WhatsAppIcon style={{ color: "#fff", cursor: "pointer" }}/>
                         </div>
                         <button>Get In Touch</button>
                     </div>

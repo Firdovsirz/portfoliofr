@@ -1,5 +1,6 @@
 import './App.css'
 import DifferenceSection from './sections/DifferenceSection/DifferenceSection'
+import HelpSection from './sections/HelpSection/HelpSection'
 import IntroSection from './sections/IntroSection/IntroSection'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <IntroSection />
       <DifferenceSection />
+      <HelpSection />
     </>
   )
 }

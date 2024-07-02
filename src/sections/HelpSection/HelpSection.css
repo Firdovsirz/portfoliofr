@@ -1,0 +1,68 @@
+.help-section {
+    padding-inline: 400px;
+    margin-top: 50px;
+}
+
+.help-section>.help-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 20px;
+    background: linear-gradient(-230deg, #121212 60%, black);
+}
+
+.help-section>.help-container>img {
+    width: 270px;
+    height: 291px;
+}
+
+.help-section>.help-container>.help-txt>h2 {
+    color: white;
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.help-section>.help-container>.help-txt>h2>em {
+    font-weight: 200;
+}
+
+.help-section>.help-container>.help-txt>.help-main-txt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.help-section>.help-container>.help-txt>.help-main-txt>p {
+    font-size: 18px;
+    color: #ABABAB;
+    width: 300px;
+    margin-right: 30px;
+}
+
+.help-section>.help-container>.help-txt>button {
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgb(77, 77, 77);
+    padding-block: 8px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.help-section>.help-container>.help-txt>button>.help-arrow {
+    margin-left: 15px;
+    transition: all 400ms;
+}
+
+.help-section>.help-container>.help-txt>button:hover .help-arrow {
+    transform: translateX(10px);
+}
