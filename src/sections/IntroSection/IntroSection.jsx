@@ -26,7 +26,7 @@ export default function IntroSection() {
                             <GitHubIcon style={{ color: "#fff", cursor: "pointer" }} />
                         </div>
                         <div className='intro-wp'>
-                            <WhatsAppIcon style={{ color: "#fff", cursor: "pointer" }}/>
+                            <WhatsAppIcon style={{ color: "#fff", cursor: "pointer" }} />
                         </div>
                         <button>Get In Touch</button>
                     </div>
